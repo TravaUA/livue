@@ -1,0 +1,37 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-size: 10px;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+.main-wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.header {
+	background: lightyellow;
+	padding: 25px 0;
+}
+
+.main {
+	flex-grow: 1;
+}
+
+.footer {
+	background: lightpink;
+	padding: 25px 0;
+}
